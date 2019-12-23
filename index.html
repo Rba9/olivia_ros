@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Intro2 Bootstrap</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class='container'>
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo.png" alt="Locos los logos">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Acerca de mi </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contacto </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="jumbotron bg-transparent text-right">
+      <div class='container'>
+        <h1 class="display-1 text-white font-weight-bold">Comidas del fin del mundo</h1>
+        <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <br>
+        <a class="btn btn-info  btn-lg "href="#" role="button">Trabajos</a>
+        <a class="btn btn-info  btn-lg " href="#" role="button">Contacto</a>
+      </div>
+    </div>
+  </header>
+      <div class='container'>
+        <div class="row mt-5">
+          <div class="col-sm-4 text-right pt-4">
+            <h3 class="display-5 font-weight-bold">Me haz visto en:</h3>
+          </div>
+          <div class="col-sm-8">
+            <div id="carouselExampleIndicators" class="carousel slide bg-dark rounded" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active py-4">
+                  <div class="row text-center">
+                    <div class="col-3">
+                      <i class="fab fa-apple fa-2x text-white"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-apple fa-2x text-white"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-apple fa-2x text-white"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-apple fa-2x text-white"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item py-4">
+                  <div class="row text-center">
+                    <div class="col-3">
+                      <i class="fab fa-github-square fa-2x text-white"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-github-square fa-2x text-white"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-github-square fa-2x text-white"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-github-square fa-2x text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class='mx-auto'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod aliquid omnis doloribus eligendi aliquam similique, sequi facere nostrum dolor. Corporis tempore error eos at non amet reiciendis maiores iure magnam!</p>
+        </div>
+        
+        <div class='row text-center'>
+          
+          <div class="col">
+            <i class="fab fa-apple fa-4x"></i>
+            <h3 class='my-4'>Fotògrafa de comida</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos fugiat, in veniam reiciendis ratione omnis, odio perspiciatis quidem ut, inventore adipisci sit eveniet rem nemo officia at amet provident?</p>
+          </div>
+          
+          <div class="col">
+            <i class="fab fa-apple fa-4x"></i>
+            <h3 class='my-4'>Fotògrafa de comida</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos fugiat, in veniam reiciendis ratione omnis, odio perspiciatis quidem ut, inventore adipisci sit eveniet rem nemo officia at amet provident?</p>
+          </div>
+          
+          <div class="col">
+            <i class="fab fa-apple fa-4x"></i>
+            <h3 class='my-4'>Fotògrafa de comida</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos fugiat, in veniam reiciendis ratione omnis, odio perspiciatis quidem ut, inventore adipisci sit eveniet rem nemo officia at amet provident?</p>
+          </div> 
+        </div>
+      </div>
+      <div class='bg-info pb-3'>
+        <div class='container'>
+          <div class='row'>
+            <h2 class='display-4 mx-auto m-5 font-weight-bold'>Mis trabajos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas voluptate accusamus odio quae incidunt. Sint, commodi nesciunt. Assumenda qui blanditiis sint, iusto suscipit molestias inventore illo cum debitis ullam!</p>
+          </div>
+          <div class="card-deck">
+            <div class="card">
+              <img src="./assets/img/card-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cortes de carnes</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Ver mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/card-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Acompañamientos</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Ver mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/card-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Assado de tira</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Ver mais</button>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='bg-ligth'>
+        <div class='container'>
+          <div class='row'>
+            <h2 class='display-4 mx-auto m-5 font-weight-bold'>Contactame</h2>
+          </div>
+          <div class="typeform-widget" data-url="https://renatab027725.typeform.com/to/mFhfaR" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=mFhfaR&utm_source=typeform.com-15196625-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> 
+          </div>
+                  
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </body>
+      </html>
